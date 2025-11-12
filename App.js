@@ -23,16 +23,15 @@ const styles = StyleSheet.create({
         backgroundColor: "whitesmoke",
         marginTop: 30,
 
-        // centers all children horizontally & vertically
-        justifyContent: "center", // vertical center
-        alignItems: "center", // horizontal center
+        justifyContent: "center",
+        alignItems: "center",
 
-        flexDirection: "row", // aligns squares in a row
+        flexDirection: "row",
     },
     child: {
         width: 80,
         height: 80,
-        marginHorizontal: 10, // adds space between squares
+        marginHorizontal: 10,
         justifyContent: "center",
         alignItems: "center",
     },
